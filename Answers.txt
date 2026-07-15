@@ -1,0 +1,6 @@
+1. Abstract classes and interfaces are both used to define a common structure for other classes. They can both contain methods that subclasses or implementing classes are required to provide, and neither is normally used to directly create objects.
+
+2. Interfaces only define behavior (methods), while abstract classes can contain both data (variables) and behavior (methods).
+
+3. It makes more sense to override equals because it changes how the original equals method works instead of just adding another method with the same name.
+
